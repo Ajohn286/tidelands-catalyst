@@ -1,8 +1,5 @@
 import Image from 'next/image';
-import Image2 from './60.1716948093341.HVkIbm7WfAXPogfSkYUHX4IiDIcYqu1TD-dkjUUZj9o=.webp';
-import  Image3  from './Cameron-Kirkconnell-2.jpg'
-import  Image4  from './RPS-extendedBreakaway_b71d79a5-18aa-47c2-a02d-369e92a0d01e_800x.webp'
-import  Image5  from './Screenshot 2024-05-25 at 10.03.21 AM.png'
+
 import { Button } from '~/components/ui/button';
 import {
   Slideshow,
@@ -22,18 +19,19 @@ export const Hero = () => (
     <SlideshowContent>
       <SlideshowSlide>
         <div className="relative">
+          <Image
+            alt="an assortment of brandless products against a blank background"
+            className="absolute -z-10 object-cover"
+            fill
+            priority
+            sizes="(max-width: 1536px) 100vw, 1536px"
+            src={"./Raider-collection-graphic.jpg"}
+          />
           <div className="flex flex-col gap-4 px-12 pb-48 pt-36">
-            <Image
-              alt="Spearo"
-              className="absolute -z-10 object-cover"
-              fill
-              priority
-              sizes="(max-width: 1536px) 100vw, 1536px"
-              src='./60.1716948093341.HVkIbm7WfAXPogfSkYUHX4IiDIcYqu1TD-dkjUUZj9o=.webp'
-            />
-            <h2 className="text-5xl font-white lg:text-6xl">25% Off Sale</h2>
+            <h2 className="text-5xl font-black lg:text-6xl">25% Off Sale</h2>
             <p className="max-w-xl">
-              Site wide sales on all orders over $300.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
             </p>
             <Button asChild className="w-fit">
               <a href="/#">Shop now</a>
@@ -43,39 +41,41 @@ export const Hero = () => (
       </SlideshowSlide>
       <SlideshowSlide>
         <div className="flex flex-col gap-4 bg-gray-100 px-12 pb-48 pt-36">
-          <Image
-            alt="Spearo"
-            className="absolute -z-10 object-cover"
-            fill
-            priority
-            sizes="(max-width: 1536px) 100vw, 1536px"
-            src='./Cameron-Kirkconnell-2.jpg'
+            <Image
+              alt="an assortment of brandless products against a blank background"
+              className="absolute -z-10 object-cover"
+              fill
+              priority
+              sizes="(max-width: 1536px) 100vw, 1536px"
+              src={"/Cameron-Kirkconnell-2.jpg"}
             />
-          <h2 className="text-5xl font-black lg:text-6xl">Cam Kirkconnells Trips to the Tropics</h2>
+          <h2 className="text-5xl font-black lg:text-6xl">Great Deals</h2>
           <p className="max-w-xl">
-            Finding Big Tuna and Oneself
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
           </p>
           <Button asChild className="w-fit">
-            <a href="/#">Read the Blog</a>
+            <a href="/#">Shop now</a>
           </Button>
         </div>
       </SlideshowSlide>
       <SlideshowSlide>
         <div className="flex flex-col gap-4 bg-gray-100 px-12 pb-48 pt-36">
-        <Image
-            alt="Spearo"
-            className="absolute -z-10 object-cover"
-            fill
-            priority
-            sizes="(max-width: 1536px) 100vw, 1536px"
-            src='./Screenshot 2024-05-25 at 10.03.21 AM.png'
-          />
-          <h2 className="text-5xl font-black lg:text-6xl">Life of the Bajau</h2>
+            <Image
+              alt="an assortment of brandless products against a blank background"
+              className="absolute -z-10 object-cover"
+              fill
+              priority
+              sizes="(max-width: 1536px) 100vw, 1536px"
+              src={"/RPS-extendedBreakaway_b71d79a5-18aa-47c2-a02d-369e92a0d01e_800x.webp"}
+            />
+          <h2 className="text-5xl font-black lg:text-6xl">Low Prices</h2>
           <p className="max-w-xl">
-            What 2000 years of freediving can teach us.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
           </p>
           <Button asChild className="w-fit">
-            <a href="/#">Read Here</a>
+            <a href="/#">Shop now</a>
           </Button>
         </div>
       </SlideshowSlide>
