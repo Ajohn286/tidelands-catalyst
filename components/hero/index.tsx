@@ -37,7 +37,7 @@ export const Hero = () => (
               Any cart over $300 will receive a 25% discount.
             </p>
             <Button asChild className="w-fit">
-              <a href="/#">Shop now</a>
+              <a href="https://tidelands-catalyst.vercel.app/shop-all/">Shop now</a>
             </Button>
           </div>
         </div>
@@ -62,7 +62,7 @@ export const Hero = () => (
               incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
             </p>
             <Button asChild className="w-fit">
-              <a href="/#">Shop now</a>
+              <a href="https://tidelands-catalyst.vercel.app/shop-all/">Shop now</a>
             </Button>
           </div>
         </div>
@@ -87,7 +87,7 @@ export const Hero = () => (
               incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
             </p>
             <Button asChild className="w-fit">
-              <a href="/#">Shop now</a>
+              <a href="https://tidelands-catalyst.vercel.app/shop-all/">Shop now</a>
             </Button>
           </div>
         </div>
