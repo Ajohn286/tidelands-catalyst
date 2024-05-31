@@ -1,4 +1,4 @@
-import Image from 'next/image';
+
 import Image2 from './60.1716948093341.HVkIbm7WfAXPogfSkYUHX4IiDIcYqu1TD-dkjUUZj9o=.webp';
 import  Image3  from './Cameron-Kirkconnell-2.jpg'
 import  Imag4  from './RPS-extendedBreakaway_b71d79a5-18aa-47c2-a02d-369e92a0d01e_800x.webp'
@@ -23,7 +23,7 @@ export const Hero = () => (
       <SlideshowSlide>
         <div className="relative">
           <div className="flex flex-col gap-4 px-12 pb-48 pt-36">
-            <Image
+            <Image2
               alt="Spearo"
               className="absolute -z-10 object-cover"
               fill
@@ -43,7 +43,7 @@ export const Hero = () => (
       </SlideshowSlide>
       <SlideshowSlide>
         <div className="flex flex-col gap-4 bg-gray-100 px-12 pb-48 pt-36">
-          <Image
+          <Image3
             alt="Spearo"
             className="absolute -z-10 object-cover"
             fill
@@ -62,7 +62,7 @@ export const Hero = () => (
       </SlideshowSlide>
       <SlideshowSlide>
         <div className="flex flex-col gap-4 bg-gray-100 px-12 pb-48 pt-36">
-        <Image
+        <Image5
             alt="Spearo"
             className="absolute -z-10 object-cover"
             fill
