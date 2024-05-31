@@ -31,10 +31,9 @@ export const Hero = () => (
             src={Raider}/>
 
           <div className="flex flex-col gap-4 px-12 pb-48 pt-36">
-            <h2 className="text-5xl font-black lg:text-6xl">25% Off Sale</h2>
+            <h2 className="text-5xl font-white lg:text-6xl">25% Off Sale</h2>
             <p className="max-w-xl">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+              Any cart over $300 will receive a 25% discount.
             </p>
             <Button asChild className="w-fit">
               <a href="/#">Shop now</a>
