@@ -1,4 +1,7 @@
 import Image from 'next/image';
+import Raider from "./Raider-collection-graphic.jpg";
+import Cam from "/Cameron-Kirkconnell-2.jpg";
+import RPS from "/RPS-extendedBreakaway_b71d79a5-18aa-47c2-a02d-369e92a0d01e_800x.webp";
 
 import { Button } from '~/components/ui/button';
 import {
@@ -25,7 +28,7 @@ export const Hero = () => (
             fill
             priority
             sizes="(max-width: 1536px) 100vw, 1536px"
-            src={"./Raider-collection-graphic.jpg"}
+            src={Raider}
           />
           <div className="flex flex-col gap-4 px-12 pb-48 pt-36">
             <h2 className="text-5xl font-black lg:text-6xl">25% Off Sale</h2>
@@ -47,7 +50,7 @@ export const Hero = () => (
               fill
               priority
               sizes="(max-width: 1536px) 100vw, 1536px"
-              src={"/Cameron-Kirkconnell-2.jpg"}
+              src={Cam}
             />
           <h2 className="text-5xl font-black lg:text-6xl">Great Deals</h2>
           <p className="max-w-xl">
@@ -67,7 +70,7 @@ export const Hero = () => (
               fill
               priority
               sizes="(max-width: 1536px) 100vw, 1536px"
-              src={"/RPS-extendedBreakaway_b71d79a5-18aa-47c2-a02d-369e92a0d01e_800x.webp"}
+              src={RPS}
             />
           <h2 className="text-5xl font-black lg:text-6xl">Low Prices</h2>
           <p className="max-w-xl">
