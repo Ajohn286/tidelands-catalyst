@@ -1,7 +1,7 @@
-
+import Image from 'next/image';
 import Image2 from './60.1716948093341.HVkIbm7WfAXPogfSkYUHX4IiDIcYqu1TD-dkjUUZj9o=.webp';
 import  Image3  from './Cameron-Kirkconnell-2.jpg'
-import  Imag4  from './RPS-extendedBreakaway_b71d79a5-18aa-47c2-a02d-369e92a0d01e_800x.webp'
+import  Image4  from './RPS-extendedBreakaway_b71d79a5-18aa-47c2-a02d-369e92a0d01e_800x.webp'
 import  Image5  from './Screenshot 2024-05-25 at 10.03.21 AM.png'
 import { Button } from '~/components/ui/button';
 import {
@@ -23,13 +23,13 @@ export const Hero = () => (
       <SlideshowSlide>
         <div className="relative">
           <div className="flex flex-col gap-4 px-12 pb-48 pt-36">
-            <Image2
+            <Image
               alt="Spearo"
               className="absolute -z-10 object-cover"
               fill
               priority
               sizes="(max-width: 1536px) 100vw, 1536px"
-              src={Image2}
+              src='./60.1716948093341.HVkIbm7WfAXPogfSkYUHX4IiDIcYqu1TD-dkjUUZj9o=.webp'
             />
             <h2 className="text-5xl font-white lg:text-6xl">25% Off Sale</h2>
             <p className="max-w-xl">
@@ -43,15 +43,15 @@ export const Hero = () => (
       </SlideshowSlide>
       <SlideshowSlide>
         <div className="flex flex-col gap-4 bg-gray-100 px-12 pb-48 pt-36">
-          <Image3
+          <Image
             alt="Spearo"
             className="absolute -z-10 object-cover"
             fill
             priority
             sizes="(max-width: 1536px) 100vw, 1536px"
-            src={Image3}
+            src='./Cameron-Kirkconnell-2.jpg'
             />
-          <h2 className="text-5xl font-white lg:text-6xl">Cam Kirkconnells Trips to the Tropics</h2>
+          <h2 className="text-5xl font-black lg:text-6xl">Cam Kirkconnells Trips to the Tropics</h2>
           <p className="max-w-xl">
             Finding Big Tuna and Oneself
           </p>
@@ -62,15 +62,15 @@ export const Hero = () => (
       </SlideshowSlide>
       <SlideshowSlide>
         <div className="flex flex-col gap-4 bg-gray-100 px-12 pb-48 pt-36">
-        <Image5
+        <Image
             alt="Spearo"
             className="absolute -z-10 object-cover"
             fill
             priority
             sizes="(max-width: 1536px) 100vw, 1536px"
-            src={Image5}
+            src='./Screenshot 2024-05-25 at 10.03.21 AM.png'
           />
-          <h2 className="text-5xl font-white lg:text-6xl">Life of the Bajau</h2>
+          <h2 className="text-5xl font-black lg:text-6xl">Life of the Bajau</h2>
           <p className="max-w-xl">
             What 2000 years of freediving can teach us.
           </p>
