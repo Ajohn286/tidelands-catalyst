@@ -33,7 +33,7 @@ export const Hero = () => (
 
           <div className="flex flex-col gap-4 px-12 pb-48 pt-36">
             <h2 className="text-5xl font-black text-white lg:text-6xl">25% Off Sale</h2>
-            <p className="max-w-xl">
+            <p className="max-w-xl text-white">
               Any cart over $300 will receive a 25% discount.
             </p>
             <Button asChild className="w-fit">
@@ -46,7 +46,7 @@ export const Hero = () => (
         <div className="relative">
           <div className="absolute inset-0 -z-10">
             <Image
-              alt="an assortment of brandless products against a blank background"
+              alt="Cam kirconnell diving with a camera in hand."
               className="object-cover"
               layout="fill"
               priority
@@ -70,7 +70,7 @@ export const Hero = () => (
         <div className="relative">
           <div className="absolute inset-0 -z-10">
             <Image
-              alt="an assortment of brandless products against a blank background"
+              alt="RPS extended breakaway"
               className="object-cover"
               layout="fill"
               priority
