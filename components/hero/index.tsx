@@ -32,7 +32,7 @@ export const Hero = () => (
           </div>
 
           <div className="flex flex-col gap-4 px-12 pb-48 pt-36">
-            <h2 className="text-5xl font-black lg:text-6xl">25% Off Sale</h2>
+            <h2 className="text-5xl font-black text-white lg:text-6xl">25% Off Sale</h2>
             <p className="max-w-xl">
               Any cart over $300 will receive a 25% discount.
             </p>
@@ -58,8 +58,7 @@ export const Hero = () => (
           <div className="flex flex-col gap-4 bg-gray-100 px-12 pb-48 pt-36">
             <h2 className="text-5xl font-black lg:text-6xl">Great Deals</h2>
             <p className="max-w-xl">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+              New Wong Spearguns! Get them while they last!
             </p>
             <Button asChild className="w-fit">
               <a href="https://tidelands-catalyst.vercel.app/shop-all/">Shop now</a>
@@ -83,8 +82,7 @@ export const Hero = () => (
           <div className="flex flex-col gap-4 bg-gray-100 px-12 pb-48 pt-36">
             <h2 className="text-5xl font-black lg:text-6xl">Low Prices</h2>
             <p className="max-w-xl">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+              Find your next favorite gear at a fraction of the cost.
             </p>
             <Button asChild className="w-fit">
               <a href="https://tidelands-catalyst.vercel.app/shop-all/">Shop now</a>
